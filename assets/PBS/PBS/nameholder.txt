@@ -1,0 +1,4 @@
+﻿ps_f Pamila
+ps_m Val
+cooltrainer_m Kurtis
+scientist Dimitri

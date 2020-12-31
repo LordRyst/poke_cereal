@@ -1,0 +1,36 @@
+{
+    "Species" : [
+        {
+            "ID" : 0,
+            "Name" : "QMARKS",
+            "Forms" : [
+            ]
+        },
+        {
+            "ID" : 1,
+            "Name" : "Bulbasaur",
+            "Forms" : [
+                {
+                    "Type1" : 12,
+                    "Type2" : 4,
+                    "Moveset" : [
+                        1, 1,
+                        3, 2
+                    ],
+                    "EggMoveset" : [
+                        3, 4
+                    ]
+                }
+            ]
+        }
+    ],
+    "Abilities" :[
+
+    ],
+    "Moves" : [
+
+    ],
+    "Items" : [
+        
+    ]
+}

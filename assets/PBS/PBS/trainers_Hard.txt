@@ -1,0 +1,1021 @@
+﻿#=============================================================================
+# Rules:
+#	1) name, id, and trainer type must be first (in any order)
+#	2) for pokemon, level must be given first
+#	3) moves, items, and abilities may have spaces, but no symbols (e.g, -,#/)
+#	4) forms must be numbers
+#
+# Can comment
+# Not sensitive to case
+# Not sensitive to leading and trailing white space
+# Not sensitive to order (except rule #1)
+#=============================================================================
+name=Gavin
+id=0
+trainerType=Sailor
+beforeSpeech=If two trainers' eyes meet, they have to kiss!
+defeatSpeech=Heh... just kidding!
+afterSpeech=They have to battle! I meant to say "battle"!
+prizeMoney=1000
+battleBGM=PR - Encounter! Gavin
+victoryBGM= PR - City
+skill=100
+canLose=false
+storeResultInVariable=1
+items
+	potion
+	full restore
+	fullheal
+pokemon = petilil
+	level = 6
+	helditem = potion
+	move1=sleep powder
+	move2 = thunder bolt
+	move3 =aurorabeam
+	move4= FLAMETHROWER
+	ability=keen eye
+	nature=impish
+	gender=f
+	form=0
+	shiny=true
+	ivs=31,4,4,31,31,29
+	evs=0,2,4,5,6,255
+	happiness=0
+	nickname=flowergirl
+	ball type=greatball
+pokemon = staryu
+	level=7
+pokemon=pidgey
+	level=12
+	ability=flash fire
+#=============================================================================
+name=Debug
+id=-1
+trainerType=Sailor
+victoryBGM=PR - City
+beforeSpeech=Hey!
+encounterME = Encounter - Youngster
+pokemon=heatran
+	level=100
+	move1=sandattack
+	move2=sandattack
+	move3=sandattack
+	move4=sandattack
+#=============================================================================
+name=Olivia
+id=1
+trainerType=Sailor
+pokemon=houndoom
+	level=1
+#=============================================================================
+name=Olivia
+id=2
+trainerType=Sailor
+beforeSpeech=You again?
+defeatSpeech=My poor Houndoom!
+pokemon=houndoom
+	level=30
+	gender=f
+	move1=crunch
+	move2=fireblast
+#=============================================================================
+name=Gavin
+id=3
+trainerType=Hiker
+beforeSpeech=Yo hoy!
+defeatSpeech=Oh boy!
+afterSpeech=A battle? What joy!
+pokemon = geodude
+	level = 6
+pokemon = onix
+	level=12
+pokemon=zubat
+	level=8
+#=============================================================================
+# TRAD BARN
+name=???
+id=4
+trainerType=Swindler
+prizeMoney=1000
+skill=75
+defeatSpeech= I would have gotten away with it!
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+canLose=false
+pokemon=Gastly
+	level=8
+	move1=Substitute
+	move2=Astonish
+	move3=Trick 
+	move4=Disable
+	ability=Levitate
+	helditem=toxicorb
+pokemon=Scraggy
+	level=9
+	move1=Headbutt
+	move2=leer
+	move3=Fake Out
+	move4=Detect
+	ability=moxie
+	helditem = focussash	
+storeResultInVariable=32
+#=============================================================================
+# TRAD FARM
+name=Oliver
+id=5
+trainerType=Youngster
+prizeMoney=250
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Youngster
+beforeSpeech= When two trainers lock eyes we must battle!
+defeatSpeech= Dang, gotta catch more Pokémon!
+afterSpeech= It's pretty chill to train in the local farm.
+pokemon=sentret
+	level=3
+pokemon=pidgey
+	level=3
+	move1=tackle
+	move2=sandattack
+#=============================================================================
+# TRAD FARM
+name=Zach
+id=6
+trainerType=Preschooler
+prizeMoney=100
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Youngster
+beforeSpeech= I can barely see in this maize!
+defeatSpeech= Not fair, I couldn't see!
+afterSpeech= I shall tell you a secret! I like being hidden...
+pokemon=taillow
+	level=3
+#=============================================================================
+# TRAD FARM
+name=Lisa
+id=7
+trainerType=Preschooler_f
+prizeMoney=100
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Girl1
+beforeSpeech= Mom says slow and steady wins the race!
+defeatSpeech= Bit too slow.
+afterSpeech= Mom says patience is a virtue. I wonder what virtue she has got?
+pokemon=slowpoke
+	level=4
+#=============================================================================
+# TRAD FARM
+name=Ted
+id=8
+trainerType=Camper
+prizeMoney=400
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Camper
+beforeSpeech= Well, hello there! Don't step in the mud!
+defeatSpeech= By the way, that wasn't mud! Haha!
+afterSpeech= Miltank are just about the kindest Pokémon you could imagine. All they want is to make others happy and healthy. Except in battles, of course!
+pokemon=miltank
+	level=5
+#=============================================================================
+# TRAD FARM
+name=Zoey
+id=9
+trainerType=YOUNGSTER_F
+prizeMoney=250
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Youngster
+beforeSpeech= My Pokémon is in the top... The top tier of Pokémon!
+defeatSpeech= They just need to grow more...
+afterSpeech= One day, my Pokémon will grow up and become strong. And so will I!
+pokemon=budew
+	level=5
+pokemon=wurmple
+	level=6
+#=============================================================================
+# ROUTE 2
+name=Perrin
+prizeMoney=3000
+id=10
+trainerType=POKEMONTRAINER_PERRIN
+prizeMoney=3000
+skill=85
+defeatSpeech= Oh, you're serious when it comes to battling, aren't you?
+battleBGM= PR - Battle! vs. Perrin
+victoryBGM= PR - Battle Won
+items
+	potion
+pokemon=larvitar
+	level=9
+	move1=irondefense
+	move2=pursuit
+	move3=stealthrock
+	move4=leer
+pokemon=helioptile
+	level=9
+	move1=Shock Wave
+	move2=agility
+	move3=Dragon Tail
+	move4=none
+	ability=dryskin
+pokemon=rufflet
+	level=10
+	move1=tackle
+	move2=leer
+	move3=fury attack
+	move4=none
+	ability=sheer force
+storeResultInVariable=31
+#=============================================================================
+# ROUTE 2
+name=Ronda
+id=11
+trainerType=BattleGirl
+prizeMoney=500
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Blackbelt
+beforeSpeech= Some train Pokémon for fun. We train for power!
+defeatSpeech= Overpowered!
+afterSpeech= When Pokémon and trainer want to train to become powerful together, that's when the magic happens.
+pokemon=riolu
+	level=7
+	move1=foresight
+	move2=quick attack
+	move3=endure
+#=============================================================================
+# ROUTE 2
+name=Charles
+id=12
+trainerType=Richboy
+prizeMoney=1500
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Richboy
+beforeSpeech= My parents helped fund the gardens currently being built north of here.
+defeatSpeech= If only they could have bought me better Pokémon...
+afterSpeech= Sonata Town nearby is the perfect spot for wealthy families like mine.
+pokemon=Shroomish
+	level=7
+pokemon=Spinda
+	level=8
+#=============================================================================
+# ROUTE 2
+name=Paz
+id=13
+trainerType=Lass
+prizeMoney=250
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Lass
+beforeSpeech= You look like you can put up a good fight!
+defeatSpeech= That was a good fight!
+afterSpeech= Eevee can evolve into plenty of different Pokémon. One day, I'll let mine choose. Maybe it doesn't want to evolve at all?
+pokemon=Eevee
+	level=7
+pokemon=Fletchling
+	level=7
+#=============================================================================
+# ROUTE 2
+name=Bobby
+id=14
+trainerType=Camper
+prizeMoney=475
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Camper
+beforeSpeech= Mhmm, it's nice to get fresh air!
+defeatSpeech= Maybe less sniffing flowers and more training is needed...
+afterSpeech= Hawthorne is a really diverse region, you'll find landscapes of all kinds here.
+pokemon=Spinarak
+	level=6
+pokemon=Goldeen
+	level=7
+#=============================================================================
+# ROUTE 3
+name=Jill
+id=15
+trainerType=POKEMONRANGER_F
+prizeMoney=500
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Ranger
+beforeSpeech= If you see somebody harming the nature, will you intervene?
+defeatSpeech= You intervened in my training!
+afterSpeech= We rangers work to protect the land and its Pokémon from irresponsible individuals. Maybe one day you could become a Ranger too and join us?
+pokemon=Lillipup
+	level=8
+#=============================================================================
+# ROUTE 3
+name=William
+id=16
+trainerType=BirdKeeper
+prizeMoney=600
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Ranger
+beforeSpeech= Prrp!
+defeatSpeech= Prrp...
+afterSpeech= I like to roleplay with my birds. They seem to get disappointed when my fake wings won't carry me though... I should let them carry me instead!
+pokemon=Pidgey
+	level=9
+pokemon=Pidove
+	level=9
+pokemon=Hoothoot
+	level=9
+#=============================================================================
+# ROUTE 3
+name=Timmy & Lola
+id=17
+trainerType=YoungCouple
+prizeMoney=1000
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Couple
+beforeSpeech= In love and battle, everything is allowed!
+defeatSpeech= We allowed ourselves to lose!
+afterSpeech= Our Pokémon are just as in love as we are. It's beautiful to see!
+pokemon=NIDORANmA
+	level=9
+pokemon=NIDORANfE
+	level=9
+#=============================================================================
+# ROUTE 3
+name=Cian
+id=18
+trainerType=BugCatcher
+prizeMoney=400
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Bugcatcher
+beforeSpeech= The factory creeps me out, but I want to find a Ghost!
+defeatSpeech= Okay, you're scary too...
+afterSpeech= My friends tell me there's Ghost Type Pokémon around here.
+pokemon=Pineco
+	level=10
+pokemon=Cascoon
+	level=9
+pokemon=Venipede
+	level=8	
+#=============================================================================
+# ROUTE 3
+name=Owen
+id=19
+trainerType=Camper
+prizeMoney=475
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Camper
+beforeSpeech= Screw this terrain, where am I to set camp?
+defeatSpeech= Guess I'll go to the PokéCenter...
+afterSpeech= It's such a slog to Excello Town from Sonata Town, even though the distance is short!
+pokemon=Helioptile
+	level=10
+pokemon=Teddiursa
+	level=9
+#=============================================================================
+# Excello Factory
+name=Volke
+id=20
+trainerType=BATTLEGUILDSTUDENT_M
+prizeMoney=600
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Battleguildstudent
+beforeSpeech= I’m so bored in here. Please battle me.
+defeatSpeech= I guess I deserved that. Hey, can you tell me what’s going on?
+afterSpeech= You’re not with the Battler’s Guild? We’re here for the initiation.
+pokemon= Koffing
+	level=11
+pokemon= Nincada
+	level=10
+#=============================================================================
+# Excello Factory
+name=Emma
+id=21
+trainerType=BATTLEGUILDSTUDENT_F
+prizeMoney=600
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Battleguildstudent
+beforeSpeech= Ooh, scary ghost Trainer battle. \nHa!  Precious.  Let’s do it.
+defeatSpeech= That was fun.  But, like, why didn’t you have, like, Ghost-type Pokemon?
+afterSpeech= Oh, you didn’t set this up. So that scream was real? Creepy.
+pokemon= Fletchling
+	level=11
+pokemon= Noibat
+	level=10
+#=============================================================================
+# Excello Factory
+name=Pamela
+id=22
+trainerType=BATTLEGUILDSTUDENT_F
+prizeMoney=500
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Battleguildstudent
+beforeSpeech= Waah! It’s that lost kid!
+defeatSpeech= Oh. You’re just a Trainer. W-who made those sounds, then?
+afterSpeech= Do you think that some kid really died all the way out here?
+pokemon= Pumpkaboo
+	level=10
+#=============================================================================
+# Excello Factory
+name=Alvis
+id=23
+trainerType=BATTLEGUILDSTUDENT_M
+prizeMoney=600
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Battleguildstudent
+beforeSpeech= We’re from the Battler’s Guild at Trinita University. Heard of it?
+defeatSpeech= Oh, you’re headed there! Look us up when you get to campus.
+afterSpeech= Have you seen our friend? Her name is Sarah.
+pokemon= Riolu
+	level=10
+pokemon= Lillipup
+	level=12
+#=============================================================================
+# Excello Factory
+name=Pablo
+id=24
+trainerType=BATTLEGUILDSTUDENT_M
+prizeMoney=700
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Battleguildstudent
+beforeSpeech= Damn it's cold in here, a battle might warm me up!
+defeatSpeech= Too hot, too hot!
+afterSpeech= I don't believe the rumours about this place, do you?
+pokemon= Floette
+	level=12
+pokemon= Roselia
+	level=10
+pokemon= Eevee
+	level=13
+#=============================================================================
+# Excello Factory
+name=Lin
+id=25
+trainerType=POKEMONTRAINER_LIN
+prizeMoney=5000
+canLose=true
+battleBGM=PR - Battle! vs. Mini Boss
+victoryBGM=PR - Battle Won
+defeatSpeech= Even though we lost, that was epic!
+pokemon= Stunky
+	level=12
+	gender=m
+	move1=poison gas
+	move2=bite
+	move3=acid spray
+	move4=none
+pokemon= Phantump
+	level=13
+	gender=f
+	move1=confuse ray
+	move2=ingrain
+	move3=shadow ball
+	move4=grass knot
+#=============================================================================
+# Mesto Mountain
+name=Felix
+id=26
+trainerType=Fisherman
+prizeMoney=800
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Boy2
+beforeSpeech= Hmm... I seem to be very lucky, or unlucky. Let me show you what I mean!
+defeatSpeech= All I can catch are Skrelp!
+afterSpeech= I hear Skrelp are hard to find here, maybe it was luck after all!
+pokemon=Skrelp
+	level=6
+pokemon=Skrelp
+	level=8
+pokemon=Skrelp
+	level=12
+#=============================================================================
+# Mesto Mountain
+name=Theodore
+id=27
+trainerType=Fisherman
+prizeMoney=650
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Boy2
+beforeSpeech= Why did the Miltank cross the road?
+defeatSpeech= To get to the udder side!
+afterSpeech= My daughter told me that joke when we went to visit Trad Farm.
+pokemon= Goldeen
+	level= 12
+pokemon= Poliwag
+	level=	14
+#=============================================================================
+# Mesto Mountain
+name=Jade
+id=28
+trainerType= RisingStarFemale
+prizeMoney=700
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Cooltrainer
+beforeSpeech= My friend and I are trying to see who can get to the top first!
+defeatSpeech= Aw...
+afterSpeech= I forgot to bring Revives! Now I have to go back and heal my Pokémon.
+pokemon= Chingling
+	level= 14
+pokemon = NIDORANfE
+	level = 14
+#=============================================================================
+# Mesto Mountain
+name=Finn
+id=29
+trainerType= RisingStarMale
+prizeMoney=700
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Cooltrainer
+beforeSpeech= My friend and I have a bet on who can reach the top of the mountain first!
+defeatSpeech= Darn...
+afterSpeech= If I win, I can take her out on a date. She likes the museum in Onde City!
+pokemon= Murkrow
+	level= 14
+pokemon = NIDORANmA
+	level = 14
+#=============================================================================
+# Mesto Mountain
+name=Cerise
+id=30
+trainerType= TouristFemale
+prizeMoney=600
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Tourist
+beforeSpeech= Wow, this mountain! C'est magnifique!
+defeatSpeech= Your Pokemon! C'est magnifique!
+afterSpeech=I'm from a far away region! My family is vacationing here for awhile!
+pokemon= Fletchling
+	level= 13
+pokemon= Beautifly
+	level= 15
+#=============================================================================
+# Mesto Mountain
+name=Kultar
+id=31
+trainerType= BackpackerMale
+prizeMoney=500
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Hiker XY
+beforeSpeech= Yer done for, pal!
+defeatSpeech= Heck!
+afterSpeech= Let us mourn this loss in peace, guy.
+pokemon= Slowpoke
+	level= 15
+#=============================================================================
+# Mesto Mountain
+name=Madeleine
+id= 32
+trainerType= NurseFemale
+prizeMoney=1300
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Lass
+beforeSpeech= I bet you'd like to rest your Pokémon! Let's battle first!
+defeatSpeech= Oops, I messed up!
+pokemon= Phanpy
+	level= 10
+pokemon= Spinda
+	level= 14
+storeResultInVariable=38
+#=============================================================================
+# Mesto Mountain
+name=Kiefer & Keila
+id= 33
+trainerType= YoungCouple
+prizeMoney=1000
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Couple
+beforeSpeech= Kiefer: My girlfriend only seems to care about some pop star group... \nKeila: Have you heard of The Bisharp Boys?
+defeatSpeech= Kiefer: Ouch! \nKeila: Hey no fair!
+afterSpeech=
+pokemon= Tauros
+	level= 13
+pokemon= Miltank
+	level= 14
+#=============================================================================
+# Mesto Mountain
+name=Lucas
+id= 34
+trainerType= Camper
+prizeMoney=700
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Camper
+beforeSpeech= Are you on a Pokémon journey too? C'mon, let's battle!
+defeatSpeech= Phew! It's over.
+afterSpeech= I'm taking a quick break here. My Growlithe helps keep me warm at night!
+pokemon= Woobat
+	level= 9
+pokemon = Grubbin
+	level= 12
+pokemon = Cutiefly
+	level = 14
+pokemon = Growlithe
+	level = 13
+#=============================================================================
+# Mesto Mountain
+name=Vera
+id= 35
+trainerType= POKEMONRANGER_F
+prizeMoney=900
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Ranger
+beforeSpeech= Do you have a favourite type of Pokémon?
+defeatSpeech= Left in the dust.
+afterSpeech= My favourite Pokémon are grass types! I just love how good they smell.
+pokemon= Deerling
+	level= 13
+pokemon= Fomantis
+	level= 12
+pokemon= Shroomish
+	level= 14
+#=============================================================================
+# The Rhyme Scheme (Side Quest - Nurse Bliss is in Excello Village PokéCenter)
+name=Bliss
+id= 36
+trainerType= NurseFemale
+prizeMoney=1000
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+defeatSpeech= I’m used to only healing, after all!
+skill = 20
+canLose=true
+items
+	potion
+pokemon= Audino
+	level= 13
+#=============================================================================
+# The Rhyme Scheme (Side Quest - Nurse Bliss is in Excello Village PokéCenter)
+name=Bliss
+id= 37
+trainerType= NurseFemale
+prizeMoney=1000
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+defeatSpeech= I’m used to only healing, after all!
+skill = 30
+canLose=true
+items
+	potion
+pokemon= Audino
+	level= 16
+#=============================================================================
+# The Rhyme Scheme (Side Quest - Nurse Bliss is in Excello Village PokéCenter)
+name=Bliss
+id= 38
+trainerType= NurseFemale
+prizeMoney=1000
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+defeatSpeech= I’m used to only healing, after all!
+skill = 40
+canLose=true
+items
+	super potion
+pokemon= Audino
+	level= 20
+#=============================================================================
+# The Rhyme Scheme (Side Quest - Nurse Bliss is in Excello Village PokéCenter)
+name=Bliss
+id= 39
+trainerType= NurseFemale
+prizeMoney=1000
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+defeatSpeech= I’m used to only healing, after all!
+skill = 40
+canLose=true
+items
+	super potion
+pokemon= Audino
+	level=23 #=============================================================================
+# The Rhyme Scheme (Side Quest - Nurse Bliss is in Excello Village PokéCenter)
+name=Bliss
+id= 40
+trainerType= NurseFemale
+prizeMoney=1000
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+defeatSpeech= I’m used to only healing, after all!
+skill = 50
+canLose=true
+items
+	super potion
+pokemon= Audino
+	level= 26
+#=============================================================================
+# Arietta Forest
+name=Soren
+id=41
+trainerType=BugCatcher
+prizeMoney=400
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Bugcatcher
+beforeSpeech= I'm the best Bug Catcher in the whole forest!
+defeatSpeech= Bugged out...
+afterSpeech= Do I ever get tired of bug Pokemon? No way!
+pokemon=Grubbin
+	level=13
+pokemon=Grubbin
+	level=13
+pokemon=Charjabug
+	level=14
+#=============================================================================
+# Arietta Forest (Double Battle)
+name=Taylor
+id=42
+trainerType=BlackBelt
+prizeMoney=700
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Blackbelt
+beforeSpeech= The dream team! Let's go!
+defeatSpeech= Maybe we should use different types...
+afterSpeech= To be honest, all the bug Pokemon here scare me.
+pokemon=Tyrogue
+	level=15
+#=============================================================================
+# Arietta Forest (Double Battle)
+name=Georgia
+id=43
+trainerType=BattleGirl
+prizeMoney=500
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Blackbelt
+beforeSpeech= This will be a good warm up!
+defeatSpeech= Ouch! Muscle cramp!
+afterSpeech= We keep having to stop every five minutes because he's scared of bugs.
+pokemon=Riolu
+	level=15
+#=============================================================================
+# Arietta Forest
+name=Felicity
+id=44
+trainerType=NurseFemale
+prizeMoney=1800
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Lass
+beforeSpeech= Oh? Aren't you a cute trainer! Want to battle?
+defeatSpeech= You have cute Pokemon too!
+afterSpeech= My Audino will fix your team right up!
+pokemon=Pikachu
+	level=14
+pokemon=Mimikyu
+	level=14
+pokemon=Audino
+	level=15
+storeResultInVariable=39
+#=============================================================================
+# Arietta Forest
+name=Jess
+id=45
+trainerType=Beauty
+prizeMoney=800
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Lass
+beforeSpeech= Prepare for a battle you won't soon forget!
+defeatSpeech= I can't believe this!
+afterSpeech= I have a fear of heights, I have no idea how I made it this far...
+pokemon=Dustox
+	level=15
+pokemon=Mudbray
+	level=15
+#=============================================================================
+# Arietta Forest
+name=Jay
+id=46
+trainerType=BirdKeeper
+prizeMoney=500
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Ranger
+beforeSpeech= It's kind of spooky in this forest...
+defeatSpeech= M-My Pokemon!
+afterSpeech= Hm? You say that Tropius isn't a bird? Well it's part Flying type!
+pokemon=Murkrow
+	level=15
+pokemon=Tropius
+	level=16
+#=============================================================================
+# Arietta Forest
+name=Avery
+id=47
+trainerType=POKEMONRANGER_F
+prizeMoney=700
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Ranger
+beforeSpeech= Hey watch it!
+defeatSpeech= Oh, I couldn't see without my glasses...
+afterSpeech= Nobody knows I wear glasses. I have to keep up my cool image.
+pokemon=Roselia
+	level=16
+pokemon=Goomy
+	level=15
+#=============================================================================
+# Arietta Forest
+name=Raj
+id=48
+trainerType=Fisherman
+prizeMoney=800
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Boy2
+beforeSpeech= Want to see my ace in the hole?
+defeatSpeech= Whoosh!
+afterSpeech= I'm hoping to evolve my Eevee into a Vaporeon when I get my hands on a Water Stone!
+pokemon=Magikarp
+	level=13
+pokemon=Magikarp
+	level=13
+pokemon=Magikarp
+	level=13
+pokemon=Magikarp
+	level=13
+pokemon=Eevee
+	level=14
+#=============================================================================
+# Arietta Forest (Double Battle)
+name=Carter
+id=49
+trainerType=Preschooler
+prizeMoney=100
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Youngster
+beforeSpeech= Battle us!
+defeatSpeech= Aw man...
+afterSpeech= It sure is stinky around here...
+pokemon=Vulpix
+	level=15
+#=============================================================================
+# Arietta Forest (Double Battle)
+name=Adleigh
+id=50
+trainerType=Preschooler_f
+prizeMoney=100
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Youngster
+beforeSpeech= Go!
+defeatSpeech= No!
+afterSpeech= My brother looks like a Shroomish when he loses.
+pokemon=Shroomish
+	level=15
+#=============================================================================
+# Arietta Forest
+name=Gray
+id=51
+trainerType=BackpackerMale
+prizeMoney=500
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Hiker XY
+beforeSpeech= I lost some items, have you seen them?
+defeatSpeech= Another loss...
+afterSpeech= I'm new to backpacking, my items keep falling out of my backpack.
+pokemon=Lombre
+	level=17
+#=============================================================================
+# Requiem Fields
+name=Joelle
+id=52
+trainerType=HexManiac
+prizeMoney=600
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Hex Maniac ORAS
+beforeSpeech= They say the souls of the dead roam this place at night.
+defeatSpeech= A-amazing!
+afterSpeech= I'd love to meet a wayward soul someday...
+pokemon=Gastly
+	level=18
+pokemon=Chimecho
+	level=19
+#=============================================================================
+# Requiem Fields
+name=Meg
+id=53
+trainerType=HexManiac
+prizeMoney=600
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Hex Maniac ORAS
+beforeSpeech= This barren wasteland... It speaks to me.
+defeatSpeech= So lonely...
+afterSpeech= I can hear the voices of long gone people and Pokemon here.
+pokemon=Mimikyu
+	level=18
+pokemon=Woobat
+	level=19
+#=============================================================================
+# Requiem Fields
+name=Vincent
+id=54
+trainerType=ARTIST_M
+prizeMoney=600
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Gentleman ORAS
+beforeSpeech= Many people and Pokémon died on this battlefield during the war.
+defeatSpeech= Oof! My paint!
+afterSpeech= I like to come here to paint the scenery and remember the fallen soldiers.
+pokemon=Raichu
+	level=20
+#=============================================================================
+# Requiem Fields
+name=Lee
+id=55
+trainerType=BATTLEGUILDSTUDENT_M
+prizeMoney=700
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Battleguildstudent
+beforeSpeech= One of my ancestors fought in the war 500 years ago.
+defeatSpeech= Disgraced!
+afterSpeech= I joined the Battle Guild to honor my ancestor's memory. My Koffing is also descended from his Weezing!
+pokemon=Koffing
+	level=18
+pokemon=Roselia
+	level=16
+pokemon=Spinda
+	level=17
+#=============================================================================
+# Requiem Fields (Double Battle)
+name=Akihito & Kanna
+id=56
+trainerType=YoungCouple
+prizeMoney=1000
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+defeatSpeech= Shhh! G-ghosts!
+afterSpeech= I'm glad Akihiko is here with me, this place gives me the creeps!
+pokemon=Vulpix
+	level=20
+pokemon=Goomy
+	level=18
+#=============================================================================
+# Requiem Fields
+name=Amir
+id=57
+trainerType=POKEMONRANGER_M
+prizeMoney=700
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Ranger
+beforeSpeech= Hey! You better not be causing any trouble!
+defeatSpeech= My mistake!
+afterSpeech= Did you know that some people race Rhyhorn in another region? Maybe I should start that here in Hawthorne.
+pokemon=Rhyhorn
+	level=20
+pokemon=Goldeen
+	level=20
+#=============================================================================
+# Side Quest - Sonata Secret Ingredient
+name=Victoria
+id=58
+trainerType=Beauty
+prizeMoney=500
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+defeatSpeech= Pssh, I guess you want that beauty mask more!
+pokemon= Staryu
+	level= 9
+storeResultInVariable=40
+#=============================================================================
+# Main Quest - A Royal Pain
+name=Ciara
+id=59
+trainerType=ARTIST_F
+prizeMoney=600
+battleBGM=PR - Battle! vs. Pokemon Trainer
+victoryBGM=PR - Battle Won
+encounterME = Encounter - Gentleman ORAS
+defeatSpeech= I’m so sorry little friend…
+pokemon=Ribombee
+	level = 19
+	helditem = oranberry
+	ability=shielddust
+	ball type=friendball
+storeResultInVariable=41

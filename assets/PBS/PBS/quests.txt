@@ -1,0 +1,78 @@
+#------------------------------------------------------------------------------
+# Example fetch quest
+name=Example: Fetch
+type=fetch
+objective=potion 3, greatball 1
+rewards=$1000
+description=Gather 3 Potions and 1 Great Ball.
+suggestedLevel=3
+#------------------------------------------------------------------------------
+# Example whispers quest
+name=Example: Whispers
+type=whispers
+objective=Talk to the quest giver
+rewards=potion
+description=Talk to the one who gave you this quest!
+suggestedLevel=1
+#------------------------------------------------------------------------------
+# Example miniboss quest
+name=Example: Miniboss
+type=miniboss
+objective= Defeat Giovanni's thugs 3, Defeat Giovanni 1
+rewards=bulbasaur
+description=Defeat Giovanni before he steals Pikachu!
+suggestedLevel=1
+#------------------------------------------------------------------------------
+# Example pokéHunt quest
+name=Example: PokeHunt
+type=pokehunt
+objective=bulbasaur 2, squirtle 5
+description=Defeat the Bulbasaur duo and the Squirtle Squad!
+suggestedLevel=1
+#------------------------------------------------------------------------------
+# Example pokéHunt quest
+name=Example: PokeHunt (easy)
+type=pokehunt
+objective=magikarp 1
+rewards=egg (pikachu)
+description=Defeat a wild Magikarp!
+suggestedLevel=1
+#------------------------------------------------------------------------------
+# Example sequentail quest combining all other example types
+name=Example: Sequential (all)
+type=seq
+objective=Example: Fetch, Example: Whispers, Example: Miniboss, Example: PokeHunt (easy)
+description=You've just completed all the example quests!
+#------------------------------------------------------------------------------
+#=================================
+name=A Lesson of Destiny
+type=sequential
+objective=Meet the Soothsayer, Tea with the Soothsayer,Bring Tea, Professor Lotus
+description=Trinita University beckons, but \pn has a few errands to run before undertaking the journey to Romanti Village! 
+journalType=main
+suggestedLevel=1
+#---------------------------
+name=Meet the Soothsayer
+type=whispers
+objective=Meet the Soothsayer in his hut
+description=Meet the Soothsayer in his hut
+#---------------------------
+name=Tea with the Soothsayer
+type=fetch
+objective=teabags 1, Visit Professor Lotus' lab
+description=Visit your home and see if Mom has teabags. Be sure to stop by Professor Lotus' Lab before leaving town!
+#---------------------------
+name=Bring Tea
+type=whispers
+objective=Bring the tea bags back to The Soothsayer
+description=Bring the tea bags back to The Soothsayer
+#---------------------------
+name=Professor Lotus
+type=whispers
+objective=Stop by Professor Lotus Lab before leaving town
+description=Talk to Professor Lotus at her lab
+#=================================
+name=Test
+type=whispers
+objective=Help Marin by catching the Pokémon he's referring to
+description=Marin from Mesto Mountain needs your help! Locate and capture the Pokémon he is referring to, and show it to him!

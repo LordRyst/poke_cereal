@@ -1,0 +1,12 @@
+# Route 1 (29) - Tranquillo Town (39)
+29,North,11,39,South,0
+# Route 2 (53) - Tranquillo Town (39)
+53,West,0,39,East,0
+# Nocturne Town (36) - Route 1 (29)
+36,East,9,29,West,0
+# Route 2 (53) - Route 1 (29)
+53,West,44,29,East,0
+# Route 2 (53) - Sonata Town (102)
+53,East,7,102,West,0
+# Excello Village (19) - Route 3 (23)
+19,West,26,23,East,0

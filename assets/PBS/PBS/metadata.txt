@@ -1,0 +1,452 @@
+﻿[000]
+PlayerA=POKEMONTRAINER_Red,trchar000,boy_bike,boy_surf_offset,boy_run,boy_dive_offset,boy_fish_offset,boy_fishsurf_offset
+PlayerB=POKEMONTRAINER_Leaf,trchar001,girl_bike,girl_surf_offset,girl_run,girl_dive_offset,girl_fish_offset,girl_fishsurf_offset
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+SurfBGM=Surf.mp3
+BicycleBGM=Bicycle.ogg
+Home=18,11,10,8
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+[001]
+# Onde City
+[002]
+# Mesto Mountain
+MapPosition=0,13,12
+Outdoor=false
+ShowArea=false
+[003]
+# Excello Village
+BattleBack=IndoorB
+MapPosition=0,13,12
+Outdoor=false
+HealingSpot=2,8,8
+[004]
+# Mesto Mountain
+MapPosition=0,13,12
+ShowArea=false
+[005]
+# Onde City
+MapPosition=0,13,11
+Outdoor=false
+ShowArea=true
+[006]
+# Tranquillo Town
+MapPosition=0,13,11
+[007]
+# Trad Barn
+TrainerVictoryME=PR - Battle Won.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+MapPosition=0,13,10
+HealingSpot=35,33,22
+[008]
+# Onde City
+Bicycle=false
+MapPosition=0,13,12
+Outdoor=false
+BicycleAlways=false
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+ShowArea=false
+[009]
+# Nocturne Town
+SnapEdges=false
+MapPosition=0,14,10
+HealingSpot=8,17,11
+[010]
+# Sonata Town
+BattleBack=IndoorB
+MapPosition=0,13,10
+[011]
+# Excello Factory L2
+BattleBack=5
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=PR - Battle Won.mp3
+TrainerBattleBGM=PR - Battle vs. Guardian.mp3
+MapPosition=0,14,10
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+HealingSpot=102,28,10
+[012]
+# Arietta Forest
+SnapEdges=true
+BattleBack=7
+Weather=Rain,100
+Bicycle=true
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+MapPosition=0,12,19
+Outdoor=false
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+ShowArea=false
+[013]
+# Tranquillo Town
+MapPosition=0,14,10
+[014]
+# Trad Farm
+BattleBack=6
+Bicycle=true
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+MapPosition=0,4,14
+Outdoor=true
+BicycleAlways=false
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+HealingSpot=35,33,22
+ShowArea=false
+[015]
+# Houses
+[016]
+# PC/Marts/Gatehouses
+MapPosition=0,13,10
+[017]
+# Nocturne Town
+MapPosition=0,13,10
+[018]
+# Nocturne Town
+SnapEdges=false
+MapPosition=0,13,10
+[019]
+# Excello Village
+Bicycle=false
+MapPosition=0,12,16
+Outdoor=true
+[020]
+# Tranquillo Town
+MapPosition=0,13,10
+[021]
+# Nocturne Town
+MapSize=1,11
+MapPosition=0,2,17
+Outdoor=false
+ShowArea=false
+[022]
+# Tranquillo Town
+[023]
+# Route 3
+BattleBack=4
+Bicycle=true
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+MapPosition=0,10,16
+Outdoor=true
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+HealingSpot=102,28,10
+ShowArea=false
+[024]
+# Onde City
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+MapPosition=0,15,8
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+HealingSpot=23,11,15
+[025]
+# Onde City
+MapPosition=0,15,8
+[026]
+# Onde City
+MapPosition=0,16,22
+[027]
+# Episode One
+MapPosition=0,15,8
+[028]
+# Nocturne Town
+BattleBack=Forest
+MapPosition=0,16,8
+Outdoor=false
+ShowArea=false
+[029]
+# Route 1
+BattleBack=Field
+Bicycle=true
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Gavin (Rival).mp3
+MapPosition=0,4,18
+Outdoor=true
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+HealingSpot=36,52,33
+[030]
+# Onde City
+MapPosition=0,16,8
+[031]
+# Houses
+MapSize=2,1101
+MapPosition=0,14,6
+Outdoor=true
+ShowArea=true
+[032]
+# Onde City
+Bicycle=true
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+MapPosition=0,12,22
+Outdoor=true
+[033]
+# Sonata Town
+MapPosition=0,14,22
+[034]
+# Pokecenter/Mart
+BattleBack=IndoorC
+Bicycle=true
+MapPosition=0,15,6
+[035]
+# Excello Village
+Bicycle=false
+MapPosition=0,4,16
+Outdoor=false
+HealingSpot=35,33,23
+ShowArea=false
+[036]
+# Nocturne Town
+SnapEdges=false
+Bicycle=true
+MapPosition=0,2,18
+Outdoor=true
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+HealingSpot=18,11,10
+[037]
+# Sonata Town
+BattleBack=EliteA
+MapPosition=0,13,6
+[038]
+# Audio Test Map
+MapPosition=0,13,6
+[039]
+# Tranquillo Town
+MapSize=2,11
+Bicycle=true
+MapPosition=0,11,6
+Outdoor=true
+HealingSpot=39,33,22
+ShowArea=false
+[040]
+# Tranquillo Town
+MapPosition=0,31,20
+[041]
+# Excello Village
+MapSize=1,111
+MapPosition=0,11,7
+Outdoor=false
+BicycleAlways=false
+ShowArea=false
+[044]
+# Important buildings
+MapSize=2,11
+MapPosition=0,11,10
+Outdoor=true
+ShowArea=true
+[045]
+# Nocturne Town
+MapPosition=0,11,10
+Outdoor=false
+BicycleAlways=false
+ShowArea=false
+[046]
+# Nocturne Town
+BattleBack=
+Bicycle=true
+MapPosition=0,12,6
+WildBattleBGM=PR - Battle vs. Guardian.mp3
+[047]
+# Battle Test Map
+MapSize=2,11
+BattleBack=Mountain
+Weather=Rain,0
+MapPosition=0,15,10
+Outdoor=true
+ShowArea=true
+[048]
+# Nocturne Town
+[049]
+# Intro Sequence
+Bicycle=true
+MapPosition=0,16,10
+Outdoor=true
+[050]
+# Debug
+BattleBack=CaveDark
+Bicycle=true
+MapPosition=0,16,10
+DarkMap=true
+[051]
+# Intro Options
+Bicycle=true
+Dungeon=true
+MapPosition=0,16,10
+[052]
+# Name Rater Demo
+MapPosition=0,17,10
+Outdoor=true
+ShowArea=true
+[053]
+# Route 2
+Bicycle=true
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+MapPosition=0,6,16
+Outdoor=true
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+HealingSpot=35,33,22
+ShowArea=false
+[054]
+MapPosition=0,17,10
+[055]
+# Trad Farm
+MapPosition=0,17,10
+HealingSpot=52,30,10
+[056]
+BattleBack=EliteA
+MapPosition=0,17,10
+[057]
+MapPosition=0,17,10
+[058]
+# PC/Marts/Gatehouses
+MapPosition=0,17,10
+[059]
+# Sonata Town
+BattleBack=EliteD
+MapPosition=0,17,10
+[060]
+# Sonata Town
+MapPosition=0,17,10
+[061]
+# Sonata Houses
+BattleBack=EliteB
+MapPosition=0,17,10
+[062]
+# Sonata Town
+MapPosition=0,17,10
+[063]
+# Sample Maps & Events
+MapPosition=0,17,10
+[064]
+# Important Buildings
+BattleBack=EliteC
+MapPosition=0,17,10
+[065]
+MapPosition=0,17,10
+[066]
+MapPosition=0,12,12
+Outdoor=true
+ShowArea=true
+[067]
+# Onde City
+MapPosition=0,12,12
+[068]
+# Onde City
+BattleBack=Forest
+MapPosition=0,12,12
+SafariMap=true
+Outdoor=false
+ShowArea=false
+[069]
+# Homes
+DiveMap=70
+MapPosition=0,13,13
+Outdoor=true
+ShowArea=true
+[070]
+# Arietta Forest
+BattleBack=7
+Weather=Rain,100
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+MapPosition=0,13,13
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+[071]
+# Mesto River
+MapPosition=0,13,13
+[072]
+# Excello Factory L1
+BattleBack=5
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+MapPosition=0,18,17
+Outdoor=false
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+HealingSpot=102,28,10
+ShowArea=false
+[073]
+# Excello Factory L1
+MapPosition=0,30,0
+Outdoor=false
+ShowArea=false
+[074]
+Bicycle=true
+MapPosition=0,12,10
+[075]
+# Hawthorne Woods
+Bicycle=true
+MapPosition=0,2,20
+Outdoor=true
+[076]
+SnapEdges=false
+[077]
+Outdoor=true
+[079]
+# Onde City
+[080]
+Bicycle=true
+Outdoor=true
+ShowArea=true
+[083]
+Weather=Light snow,100
+Bicycle=true
+Outdoor=true
+ShowArea=false
+[090]
+WildVictoryME=012-Gag01.mid
+Outdoor=true
+WildBattleBGM=Click Clock Wood (Winter).mp3
+HealingSpot=98,11,19
+[099]
+# Excello Village
+BattleBack=IndoorA
+Bicycle=true
+TrainerVictoryME=PR - Battle Won.mp3
+[100]
+# Excello Factory L2
+[101]
+# Excello Factory L0
+BattleBack=5
+TrainerVictoryME=PR - Battle Won.mp3
+HealingSpot=102,28,11
+[102]
+# Sonata Town
+Bicycle=true
+MapPosition=0,8,16
+Outdoor=true
+[104]
+# Excello Village
+[106]
+# Sample Events
+Outdoor=true
+[108]
+# Requiem Fields
+BattleBack=8
+Bicycle=true
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+Outdoor=true
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+[109]
+# Timbre Woods
+BattleBack=7
+Bicycle=true
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+WildBattleBGM=PR - Battle! vs. Wild.mp3
+HealingSpot=35,33,22
+[114]
+# Mesto Mountain
+BattleBack=7
+Bicycle=true
+TrainerVictoryME=PR - Battle Won.mp3
+WildVictoryME=victory vs. wild.mp3
+TrainerBattleBGM=PR - Battle! vs. Pokemon Trainer.mp3
+Outdoor=true
+WildBattleBGM=PR - Battle! vs. Wild.mp3

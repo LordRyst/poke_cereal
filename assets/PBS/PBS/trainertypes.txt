@@ -1,0 +1,104 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+0,POKEMONTRAINER_Red,Pokémon Trainer,60,,,SpotBoy,Male,
+1,POKEMONTRAINER_Leaf,Pokémon Trainer,60,,,SpotGirl,Female,
+2,POKEMONTRAINER_Brendan,Pokémon Trainer,60,,,SpotBoy,Male,
+3,POKEMONTRAINER_May,Pokémon Trainer,60,,,SpotGirl,Female,
+4,RIVAL1,Rival,16,,,SpotBoy,Male,
+5,RIVAL2,Rival,36,,,SpotBoy,Male,
+6,AROMALADY,Aroma Lady,32,,,SpotGirl,Female,
+7,BEAUTY,Beauty,56,,,SpotGirl,Female,
+8,BIKER,Biker,32,,,SpotBoy,Male,
+9,BIRDKEEPER,Bird Keeper,32,,,SpotBoy,Male,
+10,BUGCATCHER,Bug Catcher,16,,,SpotBoy,Male,
+11,BURGLAR,Burglar,88,,,SpotBoy,Male,32
+12,CHANELLER,Channeler,32,,,SpotGirl,Female,
+13,CUEBALL,Cue Ball,24,,,SpotBoy,Male,
+14,ENGINEER,Engineer,48,,,SpotBoy,Male,
+15,FISHERMAN,Fisherman,32,,,SpotBoy,Male,
+16,GAMBLER,Gambler,72,,,SpotBoy,Male,32
+17,GENTLEMAN,Gentleman,72,,,SpotBoy,Male,
+18,HIKER,Hiker,32,,,SpotBoy,Male,
+19,JUGGLER,Juggler,32,,,SpotBoy,Male,
+20,LADY,Lady,160,,,SpotGirl,Female,72
+21,PAINTER,Painter,16,,,SpotGirl,Female,
+22,POKEMANIAC,Poké Maniac,64,,,SpotBoy,Male,
+23,POKEMONBREEDER,Pokémon Breeder,48,,,SpotBoy,Female,
+24,PROFESSOR,Professor,100,,,SpotBoy,Male,
+25,ROCKER,Rocker,24,,,SpotBoy,Male,
+26,RUINMANIAC,Ruin Maniac,48,,,SpotBoy,Male,
+27,SAILOR,Sailor,32,,,SpotBoy,Male,
+28,SCIENTIST,Scientist,48,,,SpotBoy,Male,
+29,SUPERNERD,Super Nerd,48,,,SpotBoy,Male,
+30,TAMER,Tamer,40,,,SpotBoy,Male,
+31,BLACKBELT,Black Belt,32,,,SpotBoy,Male,
+32,CRUSHGIRL,Crush Girl,24,,,SpotBoy,Female,
+33,POKESCOUT_M,PokéScout,16,,,SpotBoy,Male,
+34,POKESCOUT_F,PokéScout,16,,,SpotBoy,Female,
+35,COOLTRAINER_M,Cool Trainer,60,,,SpotBoy,Male,
+36,COOLTRAINER_F,Cool Trainer,60,,,SpotBoy,Female,
+37,YOUNGSTER,Youngster,16,PR - Battle! vs. Pokemon Trainer.mp3,,SpotBoy,Male,
+38,LASS,Lass,16,,,SpotGirl,Female,
+39,POKEMONRANGER_M,Pokémon Ranger,60,,,SpotBoy,Male,
+40,POKEMONRANGER_F,Pokémon Ranger,60,,,SpotBoy,Female,
+41,PSYCHIC_M,Psychic,32,,,SpotBoy,Male,
+42,PSYCHIC_F,Psychic,32,,,SpotGirl,Female,
+43,SWIMMER_M,Swimmer,16,,,SpotBoy,Male,32
+44,SWIMMER_F,Swimmer,16,,,SpotGirl,Female,32
+45,SWIMMER2_M,Swimmer,16,,,SpotBoy,Male,32
+46,SWIMMER2_F,Swimmer,16,,,SpotGirl,Female,32
+47,TUBER_M,Tuber,4,,,SpotBoy,Male,16
+48,TUBER_F,Tuber,4,,,SpotGirl,Female,16
+49,TUBER2_M,Tuber,4,,,SpotBoy,Male,16
+50,TUBER2_F,Tuber,4,,,SpotGirl,Female,16
+51,COOLCOUPLE,Cool Couple,72,,,SpotBoy,Mixed,48
+52,CRUSHKIN,Crush Kin,48,,,SpotBoy,Mixed,
+53,SISANDBRO,Sis and Bro,16,,,SpotBoy,Mixed,48
+54,TWINS,Twins,24,,,SpotBoy,Mixed,
+55,YOUNGCOUPLE,Young Couple,60,,,SpotBoy,Mixed,32
+56,TEAMROCKET_M,Team Rocket,32,,,SpotBoy,Male,
+57,TEAMROCKET_F,Team Rocket,32,,,SpotGirl,Female,
+58,ROCKETBOSS,Rocket Boss,100,,,SpotBoy,Male,
+59,LEADER_Brock,Gym Leader,100,gymleader,,,Male,
+60,LEADER_Misty,Gym Leader,100,gymleader,,,Female,
+61,LEADER_Surge,Gym Leader,100,gymleader,,,Male,
+62,LEADER_Erika,Gym Leader,100,gymleader,,,Female,
+63,LEADER_Koga,Gym Leader,100,gymleader,,,Male,
+64,LEADER_Sabrina,Gym Leader,100,gymleader,,,Female,
+65,LEADER_Blaine,Gym Leader,100,gymleader,,,Male,
+66,LEADER_Giovanni,Gym Leader,100,gymleader,,,Male,
+67,ELITEFOUR_Lorelei,Elite Four,100,elite,,,Female,
+68,ELITEFOUR_Bruno,Elite Four,100,elite,,,Male,
+69,ELITEFOUR_Agatha,Elite Four,100,elite,,,Female,
+70,ELITEFOUR_Lance,Elite Four,100,elite,,,Male,
+71,CHAMPION,Champion,100,elite,,,Male,
+72,PkMnTRAINERGAVIN,PkMn Trainer,140,PR - Battle! vs. Gavin (Rival).mp3,,spotRival,Male,100
+73,FARMER,Farmer,32,,,SpotBoy,Male,
+74,KIMONO,Kimono Girl,40,,,SpotGirl,Female,76
+75,SCHOOLKID,School Kid,48,,,SpotBoy,Male,
+76,STONE,Stone,30,,,,Male,
+77,PRESCHOOLER,Preschooler,15,,,,Mixed,
+78,CAMPER,Camper,25,,001-Victory01.mid,SpotBoy.wav,Male,20
+79,BATTLEGIRL,Battle Girl,30,,,,Female,50
+80,IGNORE,IGNORE,30,,,,Male,
+81,POKEMONTRAINER,Pokémon Trainer,160,,,,Mixed,100
+82,RICHBOY,Rich Boy,0,,,,Male,40
+83,SWINDLER,Swindler,30,,,,Male,
+84,BATTLEGUILDSTUDENT,Battle Guild Student,30,,,,Mixed,
+85,IGNORE,IGNORE,30,,,,Male,
+86,RISINGSTARFEMALE,Rising Star,30,,,,Female,
+87,RISINGSTARMALE,Rising Star,30,,,,Male,
+88,TOURISTFEMALE,Tourist,30,,,,Female,
+89,TOURISTMALE,Tourist,30,,,,Male,
+90,BACKPACKERMALE,Backpacker,32,,,,Male,
+91,BACKPACKERFEMALE,Backpacker,32,,,,Female,
+92,NURSEFEMALE,Nurse,30,,,,Female,
+93,NURSEMALE,Nurse,30,,,,Male,
+94,BATTLEGUILDSTUDENT_M,Battle Guild Student,40,,,,Male,
+95,BATTLEGUILDSTUDENT_F,Battle Guild Student,40,,,,Female,
+96,POKEMONTRAINER_LIN,Pokémon Trainer,60,,,,Female,100
+97,POKEMONTRAINER_PERRIN,Pokémon Trainer,60,PR - Battle! vs. Perrin.mp3,,,Mixed,100
+98,ARTIST_M,Artist,45,,,,Male,
+99,ARTIST_F,Artist,45,,,,Female,
+100,HEXMANIAC,Hex Maniac,50,PR - Battle! vs. Pokemon Trainer.mp3,,,Female,
+101,YOUNGSTER_F,Youngster,16,PR - Battle! vs. Pokemon Trainer.mp3,,SpotGirl,Female,
+102,PRESCHOOLER_F,Preschooler,15,,,,Female,

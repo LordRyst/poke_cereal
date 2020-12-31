@@ -6,6 +6,7 @@
 #include <ctype.h>
 #include <unistd.h>
 #include "json.hpp"
+#include "pokemon.h"
 
 nlohmann::json data;
 
@@ -42,10 +43,10 @@ int main(int argc, char* argv[])
 
     if (!abilities_in.empty())
     {
-        read_abilities(abilities_in);
+        //read_abilities(abilities_in);
     }
 
-    read_pokemon(pokemon_in);
+    read_species(pokemon_in);
 
-    print_json(output);
+    //print_json(output);
 }
