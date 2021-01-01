@@ -99,6 +99,8 @@ void read_species(std::string inname)
                 species[name]["Forms"][internal]["Name"] = end;
             } else if (!begin.compare("Pokedex")) {
                 species[name]["Forms"][internal]["Pokedex"] = end;
+            } else if (!begin.compare("Incense")) {
+                species[name]["Incense"] = end;
             } else if (!begin.compare("Abilities")) {
                 species[name]["Forms"][internal]["Abilties"] = *split;
             } else if (!begin.compare("HiddenAbility")) {
