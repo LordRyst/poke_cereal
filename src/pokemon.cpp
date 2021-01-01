@@ -17,9 +17,9 @@ std::vector<std::string>* splitString(std::string in)
 {
     std::stringstream ss(in);
     std::vector<std::string>* words = new std::vector<std::string>();
+    std::string sub;
     while (ss.good())
     {
-        std::string sub;
         getline(ss, sub, ',');
         words->push_back(sub);
     }
@@ -44,7 +44,7 @@ void read_species(std::string inname)
     std::string line;
     while (std::getline(infile, line))
     {
-    lines.push_back(line);
+        lines.push_back(line);
     }
 
     // copy (std::istream_iterator<std::string>(infile),
@@ -59,7 +59,6 @@ void read_species(std::string inname)
     std::string name;
     std::string internal;
     std::set<std::string> missingKeys;
-    std::set<std::string> missingEvo;
     while (lineNum < lines.size())
     {
         std::string line = lines[lineNum];
@@ -72,7 +71,6 @@ void read_species(std::string inname)
         {
             std::string begin = line.substr(0, eq);
             std::string end = line.substr(eq + 1);
-            //fprintf(stderr, "%d, %s\n", lineNum, line.c_str());
             std::vector<std::string>* split = splitString(end);
             if (!begin.compare("Name")) {
                 name = end;
@@ -119,8 +117,6 @@ void read_species(std::string inname)
                 std::vector<int>* nums = wordsToNum(split);
                 species[name]["EV"] = *nums;
                 delete nums;
-            } else if (!begin.compare("Shape")) {
-                species[name]["Forms"][internal]["Shape"] = end;
             } else if (!begin.compare("Color")) {
                 species[name]["Forms"][internal]["Color"] = end;
             } else if (!begin.compare("Height")) {
@@ -222,12 +218,8 @@ void read_species(std::string inname)
                     } else if (!(*split)[i].compare("HappinessNight")) {
                         species[name]["Forms"][internal]["Evolutions"][evo]["HappinessNight"] = 220;
                         i+=2;
-                    } else {
-                        printf("Missing Evo: %s Line: %d\n", (*split)[i].c_str(), lineNum);
-                        missingEvo.insert((*split)[i]);
                     }
                 }
-                //species[name]["Forms"][internal]["Evolutions"] = end;
             } else {
                 missingKeys.insert(begin);
             }
@@ -243,10 +235,6 @@ void read_species(std::string inname)
     // for (std::set<std::string>::iterator it = missingKeys.begin(); it != missingKeys.end(); it++)
     // {
     //     printf("Unknown Key: %s\n", it->c_str());
-    // }
-    // for (std::set<std::string>::iterator it = missingEvo.begin(); it != missingEvo.end(); it++)
-    // {
-    //     printf("Unknown Evo: %s\n", it->c_str());
     // }
 
     printf ("%s", species.dump(4).c_str());

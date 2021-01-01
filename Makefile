@@ -9,7 +9,7 @@ INC_DIR ?= include/
 ASSETS_DIR ?= assets/
 
 SRCS := $(shell find $(SRC_DIR) -name '*.cpp')
-OBJS := $(SRCS:%=$(BUILD)%.o)
+OBJS := $(SRCS:%.cpp=$(BUILD)%.o)
 DEPS := $(OBJS:.o=.d)
 
 INC_FLAGS := $(addprefix -I,$(INC_DIR))
@@ -19,17 +19,16 @@ LD_FLAGS := -march=native -std=c++17 -fwhole-program -Xlinker -Map=$(BIN_DIR)x86
 #-flto in CFLAGS can reduce size, but greatly increases compile time. -O2 for speed.
 
 all: $(BIN_DIR)$(TARGET).exe $(ASSETS_DIR)PBS/PBS/pokemon.txt
-	$(BIN_DIR)$(TARGET).exe -p $(ASSETS_DIR)PBS/PBS/pokemon.txt
-
+	$(BIN_DIR)$(TARGET).exe -p $(ASSETS_DIR)PBS/PBS/pokemon.txt > pokemon.json
 
 $(BIN_DIR)$(TARGET).exe: $(OBJS)
 	$(MKDIR_P) $(dir $@)
 	g++ $^ $(LD_FLAGS) -o $@
 	
 # c source
-$(BUILD)%.cpp.o: %.cpp
+$(BUILD)%.o: %.cpp
 	$(MKDIR_P) $(dir $@)
-	g++ $(CFLAGS) -c $< -o $@
+	g++ $(CFLAGS) -c $^ -o $@
 
 clean:
 	$(RM) -rf bin

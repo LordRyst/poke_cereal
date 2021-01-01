@@ -2812,6 +2812,7 @@
         "GrowthRate": "Fast",
         "Happiness": 70,
         "ID": 298,
+        "Incense": "SEAINCENSE",
         "Kind": "Polka Dot",
         "Name": "Azurill",
         "StepsToHatch": 2805
@@ -5088,6 +5089,7 @@
         "GrowthRate": "Medium",
         "Happiness": 70,
         "ID": 438,
+        "Incense": "ROCKINCENSE",
         "Kind": "Bonsai",
         "Name": "Bonsly",
         "StepsToHatch": 5355
@@ -5694,6 +5696,7 @@
         "GrowthRate": "Parabolic",
         "Happiness": 70,
         "ID": 406,
+        "Incense": "ROSEINCENSE",
         "Kind": "Bud",
         "Name": "Budew",
         "StepsToHatch": 5355
@@ -8519,6 +8522,7 @@
         "GrowthRate": "Fast",
         "Happiness": 70,
         "ID": 433,
+        "Incense": "PUREINCENSE",
         "Kind": "Bell",
         "Name": "Chingling",
         "StepsToHatch": 6630
@@ -23113,6 +23117,7 @@
         "GrowthRate": "Fast",
         "Happiness": 140,
         "ID": 440,
+        "Incense": "LUCKINCENSE",
         "Kind": "Playhouse",
         "Name": "Happiny",
         "StepsToHatch": 10455
@@ -33120,6 +33125,7 @@
         "GrowthRate": "Slow",
         "Happiness": 70,
         "ID": 458,
+        "Incense": "WAVEINCENSE",
         "Kind": "Kite",
         "Name": "Mantyke",
         "StepsToHatch": 6630
@@ -35290,6 +35296,7 @@
         "GrowthRate": "Medium",
         "Happiness": 70,
         "ID": 439,
+        "Incense": "ODDINCENSE",
         "Kind": "Mime",
         "Name": "Mime Jr.",
         "StepsToHatch": 6630
@@ -36517,6 +36524,7 @@
         "GrowthRate": "Slow",
         "Happiness": 70,
         "ID": 446,
+        "Incense": "FULLINCENSE",
         "Kind": "Big Eater",
         "Name": "Munchlax",
         "StepsToHatch": 10455
@@ -61822,6 +61830,7 @@
         "GrowthRate": "Medium",
         "Happiness": 70,
         "ID": 360,
+        "Incense": "LAXINCENSE",
         "Kind": "Bright",
         "Name": "Wynaut",
         "StepsToHatch": 5355
