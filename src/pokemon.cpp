@@ -94,11 +94,11 @@ void read_species(std::string inname)
                 species[name]["Kind"] = end;
             } else if (!begin.compare("Compatibility")) {
                 species[name]["Compatibility"] = *split;
-            } else if (!begin.compare("Pokedex")) {
-                species[name]["Pokedex"] = end;
             } else if (!begin.compare("InternalName")) {
                 internal = end;
                 species[name]["Forms"][internal]["Name"] = end;
+            } else if (!begin.compare("Pokedex")) {
+                species[name]["Forms"][internal]["Pokedex"] = end;
             } else if (!begin.compare("Abilities")) {
                 species[name]["Forms"][internal]["Abilties"] = *split;
             } else if (!begin.compare("HiddenAbility")) {
@@ -225,7 +225,7 @@ void read_species(std::string inname)
                         missingEvo.insert((*split)[i]);
                     }
                 }
-                species[name]["Forms"][internal]["Evolutions"] = end;
+                //species[name]["Forms"][internal]["Evolutions"] = end;
             } else {
                 missingKeys.insert(begin);
             }
