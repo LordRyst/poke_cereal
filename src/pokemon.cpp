@@ -63,6 +63,10 @@ void read_species(std::string inname)
     while (lineNum < lines.size())
     {
         std::string line = lines[lineNum];
+        if (line[line.size() - 1] == '\r')
+        {
+            line.pop_back();
+        }
         long unsigned int eq = line.find_first_of('=');
         if (eq != std::string::npos)
         {
@@ -141,7 +145,83 @@ void read_species(std::string inname)
                     } else if (!(*split)[i].compare("Item")) {
                         species[name]["Forms"][internal]["Evolutions"][evo]["Item"] = (*split)[++i];
                         i++;
+                    } else if (!(*split)[i].compare("Location")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["Location"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("TradeItem")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["TradeItem"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("TradeSpecies")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["TradeSpecies"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("AtkDefEqual")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["AtkDefEqual"] = stoi((*split)[++i]);
+                        i++;
+                    } else if (!(*split)[i].compare("DefenseGreater")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["DefenseGreater"] = stoi((*split)[++i]);
+                        i++;
+                    } else if (!(*split)[i].compare("AttackGreater")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["AttackGreater"] = stoi((*split)[++i]);
+                        i++;
+                    } else if (!(*split)[i].compare("Beauty")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["Beauty"] = stoi((*split)[++i]);
+                        i++;
+                    } else if (!(*split)[i].compare("DayHoldItem")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["DayHoldItem"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("NightHoldItem")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["NightHoldItem"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("HasInParty")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["HasInParty"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("Silcoon")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["Silcoon"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("Cascoon")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["Cascoon"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("Ninjask")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["Ninjask"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("Shedinja")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["Shedinja"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("HasMove")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["HasMove"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("ItemFemale")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["ItemFemale"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("ItemMale")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["ItemMale"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("ItemRelic")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["ItemRelic"] = (*split)[++i];
+                        i++;
+                    } else if (!(*split)[i].compare("LevelDay")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["LevelDay"] = stoi((*split)[++i]);
+                        i++;
+                    } else if (!(*split)[i].compare("LevelFemale")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["LevelFemale"] = stoi((*split)[++i]);
+                        i++;
+                    } else if (!(*split)[i].compare("LevelMale")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["LevelMale"] = stoi((*split)[++i]);
+                        i++;
+                    } else if (!(*split)[i].compare("Happiness")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["Happiness"] = 220;
+                        i++;
+                    } else if (!(*split)[i].compare("Trade")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["Trade"] = 0;
+                        i++;
+                    } else if (!(*split)[i].compare("HappinessDay")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["HappinessDay"] = 220;
+                        i+=2;
+                    } else if (!(*split)[i].compare("HappinessNight")) {
+                        species[name]["Forms"][internal]["Evolutions"][evo]["HappinessNight"] = 220;
+                        i+=2;
                     } else {
+                        printf("Missing Evo: %s Line: %d\n", (*split)[i].c_str(), lineNum);
                         missingEvo.insert((*split)[i]);
                     }
                 }
