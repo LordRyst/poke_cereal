@@ -589,7 +589,7 @@
 589,MISTYTERRAIN,Misty Terrain,156,0,FAIRY,Status,0,10,0,01,0,d,"The user covers the ground under everyone's feet with mist for five turns. This protects Pokémon on the ground from status conditions."
 590,MOONBLAST,Moonblast,045,95,FAIRY,Special,100,15,10,00,0,bef,"Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat."
 591,MYSTICALFIRE,Mystical Fire,045,65,FIRE,Special,100,10,0,00,0,bef,"The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat."
-592,NOBLEROAR,Noble Roar,13A,0,NORMAL,Status,100,30,0,00,0,bcfk,"Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.
+592,NOBLEROAR,Noble Roar,13A,0,NORMAL,Status,100,30,0,00,0,bcfk,"Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats."
 593,NUZZLE,Nuzzle,008,20,ELECTRIC,Physical,100,20,100,00,0,abef,"The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis."
 594,OBLIVIONWING,Oblivion Wing,14F,80,FLYING,Special,100,10,0,00,0,bf,"The user absorbs its target's HP. The user's HP is restored by over half of the damage taken by the target."
 595,PARABOLICCHARGE,Parabolic Charge,0DD,50,ELECTRIC,Special,100,20,0,08,0,be,"The user attacks everything around it. The user's HP is restored by half the damage taken by those hit."
