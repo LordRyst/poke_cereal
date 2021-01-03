@@ -6,35 +6,13 @@
 #include <fstream>
 #include <sstream>
 #include "pokemon.h"
+#include "tools.h"
 
 #define SPECIES "Species"
 
 using namespace nlohmann;
 
 extern json data;
-
-std::vector<std::string>* splitString(std::string in)
-{
-    std::stringstream ss(in);
-    std::vector<std::string>* words = new std::vector<std::string>();
-    std::string sub;
-    while (ss.good())
-    {
-        getline(ss, sub, ',');
-        words->push_back(sub);
-    }
-    return words;
-}
-
-std::vector<int>* wordsToNum(std::vector<std::string>* in)
-{
-    std::vector<int>* nums = new std::vector<int>();
-    for (std::vector<std::string>::iterator word = in->begin(); word != in->end(); word++)
-    {
-        nums->push_back(stoi(*word));
-    }
-    return nums;
-}
 
 void read_species(std::string inname)
 {
@@ -46,10 +24,6 @@ void read_species(std::string inname)
     {
         lines.push_back(line);
     }
-
-    // copy (std::istream_iterator<std::string>(infile),
-    //     std::istream_iterator<std::string>(),
-    //     std::back_inserter(lines));
 
     if (!data.contains(SPECIES))
         data[SPECIES] = json::array();
@@ -236,6 +210,5 @@ void read_species(std::string inname)
     // {
     //     printf("Unknown Key: %s\n", it->c_str());
     // }
-
-    printf ("%s", species.dump(4).c_str());
+    data[SPECIES] = species;
 }

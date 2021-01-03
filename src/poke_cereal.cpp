@@ -7,6 +7,7 @@
 #include <unistd.h>
 #include "json.hpp"
 #include "pokemon.h"
+#include "moves.h"
 
 nlohmann::json data;
 
@@ -19,7 +20,7 @@ int main(int argc, char* argv[])
     std::string output;
 
     int opt;
-    while ((opt = getopt (argc, argv, "p:amio:")) != EOF)
+    while ((opt = getopt (argc, argv, "p:am:io:")) != EOF)
     {
         switch (opt)
         {
@@ -45,6 +46,8 @@ int main(int argc, char* argv[])
     {
         //read_abilities(abilities_in);
     }
+
+    read_moves(moves_in);
 
     read_species(pokemon_in);
 

@@ -1,15 +1,11 @@
-#ifndef POKEMON_H
-#define POKEMON_H
+#ifndef TOOLS_H
+#define TOOLS_H
 
-#include <string>
 #include <vector>
-
-
+#include <string>
 
 std::vector<std::string>* splitString(std::string in);
 
 std::vector<int>* wordsToNum(std::vector<std::string>* in);
-
-void read_species(std::string inname);
 
 #endif
