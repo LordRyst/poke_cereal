@@ -51,5 +51,5 @@ int main(int argc, char* argv[])
 
     read_species(pokemon_in);
 
-    //print_json(output);
+    printf ("%s", data.dump(4).c_str());
 }
