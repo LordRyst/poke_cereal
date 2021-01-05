@@ -38,7 +38,8 @@ void read_moves(std::string moves_in)
         std::vector<std::string>* split = splitString(line);
         moves[(*split)[1]]["ID"] = stoi((*split)[0]);
         moves[(*split)[1]]["DisplayName"] = (*split)[2];
-        moves[(*split)[1]]["FunctionCode"] = stoi((*split)[3], 0, 16);
+        moves[(*split)[1]]["FunctionCode"] = json::array();
+        moves[(*split)[1]]["FunctionCode"].push_back(stoi((*split)[3], 0, 16));
         moves[(*split)[1]]["BasePower"] = stoi((*split)[4]);
         moves[(*split)[1]]["Type"] = (*split)[5];
         moves[(*split)[1]]["Category"] = (*split)[6];
