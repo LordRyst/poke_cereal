@@ -17800,7 +17800,7 @@
             "GenderRate": "FemaleOneEighth",
             "GrowthRate": "Parabolic",
             "Happiness": 70,
-            "ID": 0,
+            "ID": 1,
             "Kind": "Seed",
             "Name": "Bulbasaur",
             "StepsToHatch": 5355
