@@ -14,27 +14,15 @@ extern json data;
 void read_moves(std::string moves_in)
 {
     json moves;
-    std::vector<std::string> lines;
-    std::ifstream infile(moves_in.c_str());
-    std::string line;
-    while (std::getline(infile, line))
-    {
-        if (line[line.size() - 1] == '\r')
-        {
-            line.pop_back();
-        }
-        if (line.size() > 10)
-            lines.push_back(line);
-    }
-
+    std::vector<std::string>* lines = read_file(moves_in);
 
     if (!data.contains(MOVES))
         data[MOVES] = json::array();
 
     unsigned int lineNum = 0;
-    while (lineNum < lines.size())
+    while (lineNum < lines->size())
     {
-        std::string line = lines[lineNum];
+        std::string line = (*lines)[lineNum];
         std::vector<std::string>* split = splitString(line);
         moves[(*split)[1]]["ID"] = stoi((*split)[0]);
         moves[(*split)[1]]["DisplayName"] = (*split)[2];

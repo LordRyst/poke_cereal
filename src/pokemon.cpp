@@ -74,7 +74,7 @@ void read_species(std::string inname)
             } else if (!begin.compare("Incense")) {
                 species[name]["Incense"] = end;
             } else if (!begin.compare("Abilities")) {
-                species[name]["Forms"][internal]["Abilties"] = *split;
+                species[name]["Forms"][internal]["Abilities"] = *split;
             } else if (!begin.compare("HiddenAbility")) {
                 species[name]["Forms"][internal]["HiddenAbility"] = end;
             } else if (!begin.compare("Moves")) {
@@ -89,7 +89,7 @@ void read_species(std::string inname)
                 delete nums;
             } else if (!begin.compare("EffortPoints")) {
                 std::vector<int>* nums = wordsToNum(split);
-                species[name]["EV"] = *nums;
+                species[name]["Forms"][internal]["EV"] = *nums;
                 delete nums;
             } else if (!begin.compare("Color")) {
                 species[name]["Forms"][internal]["Color"] = end;

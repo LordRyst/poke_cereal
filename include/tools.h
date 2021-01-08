@@ -8,4 +8,6 @@ std::vector<std::string>* splitString(std::string in);
 
 std::vector<int>* wordsToNum(std::vector<std::string>* in);
 
+std::vector<std::string>* read_file(std::string in);
+
 #endif

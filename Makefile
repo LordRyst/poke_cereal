@@ -8,7 +8,7 @@ BIN_DIR ?= bin/
 INC_DIR ?= include/
 ASSETS_DIR ?= assets/
 
-SRCS := $(shell find $(SRC_DIR) -name '*.cpp')
+SRCS := $(wildcard $(SRC_DIR)/*.cpp)
 OBJS := $(SRCS:%.cpp=$(BUILD)%.o)
 DEPS := $(OBJS:.o=.d)
 
