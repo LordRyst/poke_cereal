@@ -50189,7 +50189,7 @@
             "Name": "Nidoqueen",
             "StepsToHatch": 5355
         },
-        "Nidoran": {
+        "NidoranF": {
             "BaseEXP": 55,
             "CatchRate": 235,
             "Compatibility": [
@@ -50273,7 +50273,24 @@
                     ],
                     "Type1": "POISON",
                     "Weight": 7.0
-                },
+                }
+            },
+            "GenderRate": "AlwaysFemale",
+            "GrowthRate": "Parabolic",
+            "Happiness": 70,
+            "ID": 29,
+            "Kind": "Poison Pin",
+            "Name": "NidoranF",
+            "StepsToHatch": 5355
+        },
+        "NidoranM": {
+            "BaseEXP": 55,
+            "CatchRate": 235,
+            "Compatibility": [
+                "Monster",
+                "Field"
+            ],
+            "Forms": {
                 "NIDORANmA": {
                     "Abilities": [
                         "POISONPOINT",
@@ -50357,7 +50374,7 @@
             "Happiness": 70,
             "ID": 32,
             "Kind": "Poison Pin",
-            "Name": "Nidoran",
+            "Name": "NidoranM",
             "StepsToHatch": 5355
         },
         "Nidorina": {
@@ -50702,7 +50719,7 @@
             "GenderRate": "Female75Percent",
             "GrowthRate": "Medium",
             "Happiness": 70,
-            "ID": 804,
+            "ID": 38,
             "Kind": "Fox",
             "Name": "Ninetales",
             "StepsToHatch": 5355
@@ -73316,7 +73333,7 @@
             "GenderRate": "Female75Percent",
             "GrowthRate": "Medium",
             "Happiness": 70,
-            "ID": 803,
+            "ID": 37,
             "Kind": "Fox",
             "Name": "Vulpix",
             "StepsToHatch": 5355

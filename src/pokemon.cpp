@@ -49,7 +49,17 @@ void read_species(std::string inname)
             if (!begin.compare("Name")) {
                 name = end;
                 species[name]["Name"] = end;
-                species[name]["ID"] = ID;
+                if (!species[name].contains("ID"))
+                {
+                    species[name]["ID"] = ID;
+                } else {
+                    unsigned int oldID = species[name]["ID"];
+                    species[name]["ID"] = ID < oldID ? ID : oldID;
+                    if (ID < oldID)
+                    {
+                        printf("Out of order ID old: %d new: %d\n", oldID, ID);
+                    }
+                }
             } else if (!begin.compare("BaseEXP")) {
                 species[name]["BaseEXP"] = stoi(end);
             } else if (!begin.compare("GrowthRate")) {
