@@ -64,8 +64,6 @@ void read_species(std::string inname)
                 species[name]["BaseEXP"] = stoi(end);
             } else if (!begin.compare("GrowthRate")) {
                 species[name]["GrowthRate"] = end;
-            } else if (!begin.compare("GenderRate")) {
-                species[name]["GenderRate"] = end;
             } else if (!begin.compare("Rareness")) {
                 species[name]["CatchRate"] = stoi(end);
             } else if (!begin.compare("Happiness")) {
@@ -79,6 +77,8 @@ void read_species(std::string inname)
             } else if (!begin.compare("InternalName")) {
                 internal = end;
                 species[name]["Forms"][internal]["Name"] = end;
+            } else if (!begin.compare("GenderRate")) {
+                species[name]["Forms"][internal]["GenderRate"] = end;
             } else if (!begin.compare("Pokedex")) {
                 species[name]["Forms"][internal]["Pokedex"] = end;
             } else if (!begin.compare("Incense")) {
